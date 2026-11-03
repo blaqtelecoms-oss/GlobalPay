@@ -24,7 +24,13 @@ export const GlobalPayLogo: React.FC<GlobalPayLogoProps> = ({
 
   return (
     <div id={id} className={`inline-flex items-center gap-2.5 select-none ${className}`}>
-      <span className="globalpay-mark" aria-hidden="true" />
+      <img
+        src="/globalpay-mark.png"
+        alt=""
+        aria-hidden="true"
+        draggable={false}
+        className="globalpay-mark"
+      />
       {showText && <span className={`globalpay-wordmark ${textSize}`}>GlobalPay</span>}
     </div>
   );

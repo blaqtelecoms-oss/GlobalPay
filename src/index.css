@@ -39,12 +39,11 @@ main, .site-page-shell {
 }
 
 .globalpay-mark {
-  display: inline-block;
-  width: 30px;
+  display: block;
+  width: auto;
   height: 30px;
-  flex: 0 0 30px;
-  border-radius: 9px;
-  background: conic-gradient(from 210deg, var(--blue), var(--teal), var(--blue));
+  flex: 0 0 auto;
+  object-fit: contain;
 }
 
 .globalpay-wordmark {
